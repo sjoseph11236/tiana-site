@@ -1,3 +1,11 @@
+* { 
+  box-sizing: border-box;
+}
+
+*, :before, :after { 
+  box-sizing: border-box;
+}
+
 body { 
   color: #333;
   font-family: EB Garamond, serif;
@@ -7,7 +15,36 @@ body {
   line-height: 1.5;
   margin: 0;
 }
+div{ 
+  display: block;
+}
 
+a {
+  text-decoration: none;
+  transition: color .2s linear;
+  background: transparent;
+}
+.clearficx { 
+  display: block;
+}
+.container { 
+  max-width: 1080px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: #fff;
+}
+.container:after { 
+  clear:both;
+}
+.container:before, .container:after { 
+  content: "";
+  display: table;
+}
+
+/* Site Header */
 .site-header { 
   text-align: center;
 }
@@ -15,4 +52,47 @@ body {
 .site-header .container { 
   padding-top: 50px;
   padding-bottom: 40px;
+}
+
+.site-title { 
+  font-size: 45px;
+  margin: 0; 
+  font-family: Josefin Sans, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  line-height: 1;
+  color:#000;
+  font-weight: 300 !important;
+}
+.site-title a { 
+  color: #000;
+}
+
+.site-description { 
+  font-size: 14px;
+  color:#222;
+  font-weight: 400; 
+  letter-spacing: 1px;
+  line-height: 1.5;
+  margin: 10px auto 0; 
+  max-width: 75%;
+  text-align: center;
+}
+
+.site-top { 
+  background:#000000;
+  position: relative;
+  width: 100%;
+  opacity: .94;
+  z-index: 500;
+  transition: all 300ms ease;
+}
+
+.site-top .container { 
+  background: transparent;
+}
+
+.site-menu { 
+  position: relative;
+  z-index: 99;
 }
