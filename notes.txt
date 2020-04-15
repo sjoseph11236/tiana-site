@@ -8,3 +8,13 @@ https://www.dulcecandy.com/
 [] Complete the sub nav styling. 
 [] Add social Icons sticky on left side. 
 [] Add Footer 
+[] Add font awesome link to snippets folder for common links
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+Facebook: Makeup by Tiana
+IG: tiana.lino
+
+
+_blank	Opens the linked document in a new window or tab
