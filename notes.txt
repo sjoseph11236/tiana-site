@@ -6,7 +6,7 @@ Dulce candy's page:
 https://www.dulcecandy.com/
 
 [] Complete the sub nav styling. 
-[] Add social Icons sticky on left side. 
+[x] Add social Icons sticky on left side. 
 [] Add Footer 
 [] Add font awesome link to snippets folder for common links
 
@@ -18,3 +18,17 @@ IG: tiana.lino
 
 
 _blank	Opens the linked document in a new window or tab
+
+The rel attribute specifies the relationship between the current document and the linked document.
+
+Only used if the href attribute is present.
+
+nofollow	Links to an unendorsed document, like a paid link.
+("nofollow" is used by Google, to specify that the Google search spider should not follow that link)
+
+noopener	Requires that any browsing context created by following the hyperlink must not have an opener browsing context
+
+
+The overflow-x property specifies whether to clip the content, add a scroll bar, or display overflow content of a block-level element, when it overflows at the left and right edges.
+
+[What is !important?](https://css-tricks.com/when-using-important-is-the-right-choice/)
