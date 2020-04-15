@@ -1,0 +1,10 @@
+Simone's Page: 
+https://simonesharice.com/contact/
+
+Dulce candy's page: 
+
+https://www.dulcecandy.com/
+
+[] Complete the sub nav styling. 
+[] Add social Icons sticky on left side. 
+[] Add Footer 
