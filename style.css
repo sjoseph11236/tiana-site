@@ -266,6 +266,10 @@ h1, h2, h3, h4, h5, h6 {
   transition: all .25s ease-out;
 }
 
+#social_sidebar a:hover { 
+  color: #d1bc61;
+}
+
 .site-main .container { 
   padding-top: 30px;
   padding-bottom: 50px;
