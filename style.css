@@ -2,6 +2,8 @@ html {
   overflow-x: hidden;
 }
 
+
+
 html, body { 
   min-height: 100% !important;
   height: auto !important;
@@ -42,6 +44,7 @@ body {
   line-height: 1.5;
   margin: 0;
 }
+
 div{ 
   display: block;
 }
@@ -85,6 +88,27 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
+h3 { 
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em; 
+  margin-block-end: 1em; 
+  margin-inline-start: 0px; 
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+img { 
+  border: 0;
+}
+
+p { 
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px; 
+}
 .clearfix { 
   display: block;
 }
@@ -319,8 +343,47 @@ h1, h2, h3, h4, h5, h6 {
   word-wrap: break-word;
 }
 
+.site-sidebar{ 
+  line-height: 1.5;
+  text-align: cennter;
+  padding: 0 6px 0 26px; 
+}
 
+.site-sidebar .widget:first-child { 
+  padding-top: 0;
+}
 
+.site-sidebar .widget { 
+  padding: 10px 15px;
+}
+
+.pipdg_widget_profile { 
+  padding-top: 0;
+}
+
+.widget { 
+  margin-bottom: 3px;
+}
+
+.widget-title { 
+  color: #000;
+  background: #eee;
+  font: 10px Montserrat, arial, sans-serif;
+  letter-spacing: 3px;
+  margin: 0 0 10px;
+  padding: 6px 0; 
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.widget img { 
+  max-width: 100%;
+  height: auto;
+}
+
+.pipdg_widget_profile img { 
+  margin-bottom: 10px;
+}
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
   display: block;
@@ -333,5 +396,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 
   .col-sm-1m, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11 { 
     float: left; 
+  }
+
+  .col-sm-4 { 
+    width: 33.3%;
   }
 }
