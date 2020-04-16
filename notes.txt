@@ -10,7 +10,7 @@ Front End:
 [x] Add social Icons sticky on left side. 
 [x] Delete site-top icons. 
 [] Add Footer 
-[] Add font awesome link to snippets folder for common links
+[x] Add font awesome link to snippets folder for common links
 [] Add image to about section
 [] transfer HTML into React
 
