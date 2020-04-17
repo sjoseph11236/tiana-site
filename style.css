@@ -28,12 +28,12 @@ a {
   transition: color .2s linear;
   background: transparent;
 }
-
+/* 
 a:-webkit-any-link {
   color:-webkit-link;
   cursor: pointer;
   text-decoration: underline;
-}
+} */
 
 body { 
   color: #333;
@@ -83,7 +83,7 @@ article {
 h1, h2, h3, h4, h5, h6 {
   color: #222;
   font-family: Josefin Sans, sans-serif;
-  font-weight: 300 !important;
+  font-weight: 400å !important;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -109,6 +109,11 @@ p {
   margin-inline-start: 0px;
   margin-inline-end: 0px; 
 }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block;
+}
+
 .clearfix { 
   display: block;
 }
@@ -385,10 +390,77 @@ p {
   margin-bottom: 10px;
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+.more-link { 
+  color: #fff;
+  background:#111;
   display: block;
+  font: 11px Montserrat, sans-serif;
+  font-weight: 400 !important; 
+  letter-spacing: 2px;
+  padding:10px 0; 
+  width: 100%; 
+  text-transform: uppercase;
+  margin: 10px auto; 
+  text-align: center; 
+  position: relative;
+  top: 5px;
+  -moz-transition: all 0.25s ease-out;
+  transition: all 0.24s ease-out;
 }
 
+.sticky-nudge { 
+  margin-top: 30px;
+}
+
+.site-footer { 
+  color: #000; 
+  font: 10px Montserrat, sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1.5;
+  background: #eee;
+  width: 100%;
+}
+
+.site-footer .container { 
+  background: transparent;
+  padding: 15px;
+}
+
+.site-footer a { 
+  color: #000;
+}
+
+.site-info { 
+  text-align: left;
+}
+.footer-menu-bar { 
+  display: inline;
+  margin-left: 5px;
+}
+.footer-menu-bar ul { 
+  list-style: none;
+  margin: 0; 
+  padding: 0; 
+  display: inline;
+}
+
+.footer-menu-bar ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+.footer-menu-bar ul li a { 
+  display: inline;
+  margin: 0 5px;
+}
+
+.footer-menu-bar ul li:before {
+  content: '\00B7';
+  padding-right: 5px;
+}
 @media (min-width: 768px)  { 
   .col-sm-8 {
     width: 66.6%;
