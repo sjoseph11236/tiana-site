@@ -2,8 +2,6 @@ html {
   overflow-x: hidden;
 }
 
-
-
 html, body { 
   min-height: 100% !important;
   height: auto !important;
@@ -28,12 +26,6 @@ a {
   transition: color .2s linear;
   background: transparent;
 }
-/* 
-a:-webkit-any-link {
-  color:-webkit-link;
-  cursor: pointer;
-  text-decoration: underline;
-} */
 
 body { 
   color: #333;
@@ -130,6 +122,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
   content: "";
   display: table;
 }
+
 .container { 
   max-width: 1080px;
   position: relative;
@@ -191,8 +184,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
   font-size: 10px;
 }
 
-
-
 .menu-bar ul li a, .slicknav_brand, .slicknav_brand a, .slicknav_nav a, .slicknav_menu .slicknav_menutxt {
     color: #ffffff;
 }
@@ -226,7 +217,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
   font-size: 0; 
   list-style: none;
 } 
-
 
 .menu-bar ul li { 
   position: relative;
@@ -274,7 +264,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
   padding: 6px 25px;
   min-width: 150px;
 }
-
 
 .menu-bar > ul > li {
   display: inline-block;
@@ -434,10 +423,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 .site-info { 
   text-align: left;
 }
+
 .footer-menu-bar { 
   display: inline;
   margin-left: 5px;
 }
+
 .footer-menu-bar ul { 
   list-style: none;
   margin: 0; 
@@ -461,6 +452,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
   content: '\00B7';
   padding-right: 5px;
 }
+
 @media (min-width: 768px)  { 
   .col-sm-8 {
     width: 66.6%;
