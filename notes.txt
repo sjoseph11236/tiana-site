@@ -20,7 +20,9 @@ Back End:
 [] Create a tag model with word property. 
 
 /*------------------*/
-Font Awesome CDN: 
+ [x] Add Font Awesome CDN to Snippters folder.
+ 
+ Font Awesome CDN : 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -49,3 +51,17 @@ The overflow-x property specifies whether to clip the content, add a scroll bar,
 
 /*-------------------------------------------*/
 [What is !important?](https://css-tricks.com/when-using-important-is-the-right-choice/)
+
+
+/*-------------------------------------*/
+[] Screen shoot devtools steps. 
+[] Mark and identify devtool steps
+[] Create Medium article
+
+How do I find the css for hover in the devtools? 
+
+Problem: 
+  - The site that I was destructing to better understand the css has a sub-menu class that appears on hover. However, when ever I click on the DOM element in the sub-menu class in the element the css for hover isn't there. I clicked on the inspector arrow and in the Elements HTML the DOM element with that class name and I wasn't able to see the CSS. 
+
+Solution: 
+  - In the Chrome devtools go to Elements tab in the DOM find the element with the target class name. On the left are three dots click on it and you showed see force state option and click on the :hover option. Now on the DOM element, there should be a yellow dot where the three dots was in the styles tab you should see the style with the hover selector.
