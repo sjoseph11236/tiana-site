@@ -53,12 +53,15 @@ Target attribute - anchor tag:
 
 The overflow-x property specifies whether to clip the content, add a scroll bar, or display overflow content of a block-level element, when it overflows at the left and right edges.
 
+The :before and :after inserts some context either before or after the content of an element. 
+
 /*-------------------------------------------*/
 
 [] Add to resources in README Repo
 
 [What is !important?](https://css-tricks.com/when-using-important-is-the-right-choice/)
-
+[Chrome DevTools Docs](https://developers.google.com/web/tools/chrome-devtools/)
+[Before and after psuedo-elements](https://css-tricks.com/almanac/selectors/a/after-and-before/)
 
 /*-------------------------------------*/
 [] Screen shoot devtools steps. 
@@ -72,3 +75,4 @@ Problem:
 
 Solution: 
   - In the Chrome devtools go to Elements tab in the DOM find the element with the target class name. On the left are three dots click on it and you showed see force state option and click on the :hover option. Now on the DOM element, there should be a yellow dot where the three dots was in the styles tab you should see the style with the hover selector.
+
